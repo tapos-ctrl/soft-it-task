@@ -1,0 +1,788 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-section {
+    background-image: url("images/header-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: -1;
+    padding-bottom: 3vw;
+}
+
+.nav-bar, .header-bnner-box, .paragraph, .carousel-section {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details, .section-two, .gins-size-title, .section-three, .video-box, .inportent-link {
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+}
+
+.log {
+    display: flex;
+}
+
+.logo-one img {
+    width: 5vw;
+    height: 5vw;
+    padding-top: 4vw;
+}
+
+.logo-two img {
+    width: 9.4vw;
+    height: 1.5vw;
+    padding-top: 6vw;
+    margin-left: 0.5vw;
+}
+
+.manu img {
+    width: 9vw;
+}
+
+.header-img img {
+    width: 35vw;
+    height: 60vh;
+    z-index: 1;
+}
+
+.heading-all-img {
+    position: relative;
+}
+
+.circle-one {
+    height: 30.5vw;
+    width: 37vw;
+    border: 0.8px solid rgb(0, 59, 96);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 25vh;
+    right: 3vw;
+    z-index: -1;
+}
+
+.circle-two {
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -1vw;
+    left: -3vw;
+    background-color: rgb(0, 59, 96);
+}
+
+.circle-three {
+    height: 2.5vh;
+    width: 1.2vw;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 61vh;
+    right: 0vw;
+    background-color: rgb(0, 59, 96);
+}
+
+.circle-for {
+    height: 20vh;
+    width: 10vw;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: 24vh;
+    left: -2vw;
+    background-color: rgb(162, 179, 189);
+    z-index: -2;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 230, 21);
+    border-radius: 3vw 0px;
+    width: 28vw;
+    margin-left: 3.3vw;
+}
+
+.call-text {
+    color: rgb(255, 255, 255);
+    font-family: "Li Ador Noirrit";
+    font-size: 1.8vw;
+    background-color: rgb(1, 42, 74);
+    border-radius: 3vw 0px;
+    width: 26vw;
+    padding: 0.2vw;
+    text-align: center;
+}
+
+.phone-icon img {
+    width: 4vw;
+    margin-right: 0.5vw;
+    height: 5vh;
+}
+
+.phone-number {
+    color: rgb(1, 42, 74);
+    font-family: "Malgun Gothic";
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-one > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    background: rgb(1, 42, 74);
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    height: 4vw;
+    border-radius: 3vw 0px;
+    margin: 0vw 0vw 1.9vw;
+}
+
+.title-two {
+    color: rgb(0, 59, 96);
+    font-family: "Li Niladri Rongtuli Unicode";
+    width: 43vw;
+    font-size: 1.3vw;
+    margin: 0vw 0vw 1.9vw;
+}
+
+.price > p {
+    color: rgb(1, 42, 74);
+    font-family: "Li Ador Noirrit";
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.high-price {
+    color: rgb(96, 138, 171);
+    font-family: "Li Ador Noirrit";
+    font-weight: 400;
+    margin: 0vw 0vw 2vw;
+}
+
+.low-price {
+    color: rgb(1, 42, 74);
+    font-family: "Li Ador Noirrit";
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin: 0vw 0vw 0vw 1.5vw;
+}
+
+.btn img {
+    width: 2vw;
+}
+
+.order-btn {
+    color: rgb(9, 46, 103);
+    font-family: "Li Niladri Rongtuli Unicode";
+    width: 16vw;
+    font-size: 1.3vw;
+    padding: 1vw;
+    border: none;
+    background: rgb(240, 230, 21);
+    cursor: pointer;
+    border-radius: 3vw 0px;
+    margin-top: 2vw;
+}
+
+.delivery-charge {
+    color: rgb(1, 42, 74);
+    font-family: "Li Ador Noirrit";
+    font-size: 1.5vw;
+    margin-top: 2vw;
+    width: 37vw;
+}
+
+.section-one {
+    color: rgb(0, 59, 96);
+    font-family: "Li Ador Noirrit";
+    font-size: 1.1vw;
+    padding: 5.5vw 0vw 2vw;
+}
+
+.product-details {
+    padding: 5vw 0vw 0vw;
+}
+
+.product-title {
+    width: 41vw;
+    font-size: 1.3vw;
+    margin-left: 35vw;
+}
+
+.product-manu {
+    display: flex;
+    width: 34vw;
+    margin-top: 2.5vw;
+}
+
+.product-manu img {
+    width: 1vw;
+    margin-right: 0.5vw;
+}
+
+.item {
+    padding: 0.7vw 0vw;
+}
+
+.section-two {
+    background-image: url("images/denim_text_effect 1.png");
+    width: 100%;
+    height: 45vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.gins-bandel img {
+    width: 28.5vw;
+    position: absolute;
+    bottom: 27.5vw;
+    left: 10vw;
+}
+
+.gins-size-img {
+    background-image: url("images/Frame.png");
+    width: 4vw;
+    height: 4vw;
+    text-align: center;
+    font-size: 2.4vw;
+    background-repeat: no-repeat;
+    padding: 0.5vw;
+    background-size: cover;
+    margin: 0vw 0.6vw;
+}
+
+.gins-size-title {
+    margin-left: 45vw;
+    width: 30vw;
+}
+
+.gins-size-title h3 {
+    color: rgb(240, 230, 21);
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    font-family: "Li Niladri Rongtuli Unicode";
+    font-size: 2vw;
+}
+
+.gins-size-img p {
+    margin-top: 0.3vw;
+}
+
+.discount {
+    position: absolute;
+    bottom: 0vw;
+    left: 35vw;
+    text-align: center;
+}
+
+.discount h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.section-three {
+}
+
+.product {
+    display: flex;
+    border-bottom: 0.01vw dashed rgb(0, 59, 96);
+    padding: 3vw 0vw;
+}
+
+.product-body {
+    width: 19vw;
+    height: 22.7vw;
+    position: relative;
+    background: rgb(241, 241, 241);
+    border-radius: 3vw 0px;
+    margin: 0vw 0.5vw;
+}
+
+.product-img img {
+    width: 16.7vw;
+    height: 13.8vw;
+    padding: 1.4vw;
+}
+
+.product-text {
+    color: rgb(255, 255, 255);
+    font-family: "Li Ador Noirrit";
+    font-size: 1vw;
+    padding: 1vw 1vw 1vw 2vw;
+    border-radius: 2.4vw 0px;
+    position: absolute;
+    bottom: 0.8vw;
+    width: 15vw;
+    height: 2vw;
+    left: 0.5vw;
+    background: rgb(0, 59, 96);
+}
+
+.product-qualification {
+    padding: 3vw 0vw;
+}
+
+.product-qualification h2 {
+    color: rgb(0, 59, 96);
+    font-family: "Li Niladri Rongtuli Unicode";
+    font-size: 1.4vw;
+    padding-bottom: 3vw;
+}
+
+.product-manu-two {
+    width: 78vw;
+    display: flex;
+}
+
+.item-two {
+    color: rgb(0, 59, 96);
+    font-family: "Li Ador Noirrit";
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    margin: 1vw 0vw 1.9vw 4vw;
+    line-height: normal;
+}
+
+.item-two img {
+    margin-right: 0.5vw;
+    width: 1vw;
+}
+
+.video-box {
+    background-image: url("images/video-background.png");
+    height: 40vw;
+    border-radius: 8vw 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3vw;
+}
+
+.play-btn {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.play-btn img {
+    height: 5vw;
+    align-items: center;
+    justify-content: center;
+    border: 1vw solid rgba(236, 236, 236, 0.267);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.buy-sell-directions {
+    text-align: center;
+}
+
+.buy-sell-directions h1 {
+    color: rgb(0, 59, 96);
+    font-family: "Li Niladri Rongtuli Unicode";
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buy-sell-directions p {
+    color: rgb(0, 59, 96);
+    font-family: "Li Ador Noirrit";
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buy-sell-directions-box-one, .buy-sell-directions-box-two {
+    width: 40vw;
+    margin: 2vw auto;
+    border: 0.1vw solid rgb(0, 59, 96);
+    padding: 0.5vw 1vw;
+}
+
+.offer-body {
+    background-image: url("images/background.png");
+    width: 45vw;
+    height: 30vw;
+    border-radius: 7vw 0vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px auto 3vw;
+}
+
+.offer-text {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.offer-text h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Li Niladri Rongtuli Unicode";
+    font-size: 2vw;
+}
+
+.offer-text p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Li Ador Noirrit";
+    font-size: 1.1vw;
+    margin-top: 1vw;
+}
+
+.section-six {
+}
+
+.carousel-section {
+}
+
+.carousel-body {
+    width: 23vw;
+    height: 20vw;
+    background: rgba(241, 241, 241, 0.945);
+    border-radius: 4vw 0vw;
+    position: relative;
+    box-shadow: rgba(165, 165, 165, 0.8) -0.9vw 1.1vw 6.1vw 0.1vw;
+    margin: 5vw 0vw 2vw;
+}
+
+.caruousel-text {
+    text-align: center;
+    position: absolute;
+    bottom: 3vw;
+    left: 0px;
+    right: 0px;
+}
+
+.caruousel-text h2 {
+    color: rgb(0, 59, 96);
+    font-family: Manrope;
+    margin-bottom: 0.5vw;
+    font-size: 1.6vw;
+}
+
+.caruousel-text span {
+    color: rgb(0, 59, 96);
+}
+
+.caruousel-text p {
+    color: rgb(0, 59, 96);
+    font-size: 1.2vw;
+}
+
+hr {
+    border: 0.1vw dashed rgb(0, 59, 96);
+    width: 7vw;
+    margin: 1.3vw auto;
+    padding: 0vw 3vw;
+}
+
+.carousel-body img {
+    position: absolute;
+    top: -3.6vw;
+    left: 0px;
+    width: 8vw;
+    right: 0px;
+    margin: 0px auto;
+}
+
+.arrow-btn {
+    width: 9vw;
+    margin: 0px auto 2vw;
+}
+
+.left-arrow, .right-arrow {
+    border: 0.1vw solid rgb(38, 47, 48);
+    width: 1.5vw;
+    padding: 0.5vw;
+    border-radius: 3vw;
+}
+
+.input-section {
+    background-image: url("images/Rectangle.png");
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input-section h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Li Niladri Rongtuli Unicode";
+    font-size: 2.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input-box {
+    display: flex;
+    width: 72vw;
+    margin: 0px auto;
+    justify-content: center;
+    padding-top: 3vw;
+}
+
+.input-box-one, .input-box-two, .payment-method {
+    width: 30vw;
+    margin-right: 7vw;
+}
+
+.input-box-one input {
+    width: 30vw;
+    height: 2.5vw;
+    background: transparent;
+    border: 0.1vw solid rgb(255, 255, 255);
+    border-radius: 0.3vw;
+}
+
+.input-box-one label {
+    color: rgb(255, 255, 255);
+    margin-bottom: 1vw;
+    font-size: 1.1vw;
+}
+
+::placeholder {
+    padding: 1vw;
+    color: rgb(241, 241, 241);
+    font-size: 1vw;
+}
+
+.input-box-two {
+    margin-left: 3vw;
+}
+
+.payment-method {
+    background: rgb(255, 255, 255);
+    border-radius: 2vw 0vw;
+    margin-top: 0.8vw;
+}
+
+.payment-method h3 {
+    padding: 1vw;
+    color: rgb(8, 4, 34);
+    font-family: Manrope;
+    font-size: 1.17vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.payment-method > h4 {
+    font-family: "Li Ador Noirrit";
+    font-size: 0.9vw;
+    font-style: normal;
+    padding: 0vw 0vw 1vw 1vw;
+    font-weight: 400;
+    color: rgb(8, 4, 34);
+}
+
+.pay {
+    background: rgb(0, 59, 96);
+    border-radius: 0vw 0vw 2vw;
+    position: relative;
+}
+
+.pay img {
+    position: absolute;
+    top: -0.8vw;
+    width: 1.2vw;
+    left: 6vw;
+}
+
+.pay > p {
+    font-size: 1vw;
+    margin-left: 1vw;
+    color: rgb(255, 255, 255);
+    padding: 0.8vw 0vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+.product-head, .input-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border: 0.1vw solid rgb(255, 255, 255);
+    padding: 0.6vw 3vw;
+    width: 21vw;
+    margin-top: 1vw;
+}
+
+.order-product {
+    padding-bottom: 2vw;
+}
+
+.product-head h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+}
+
+.input-img img {
+    width: 5vw;
+    height: 5vw;
+    padding: 0px;
+}
+
+.produt-img-text {
+    margin-left: 0.5vw;
+    color: rgb(255, 255, 255);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background: rgb(240, 230, 21);
+    height: 1vw;
+    width: 1vw;
+    cursor: pointer;
+}
+
+.link-text {
+    position: relative;
+}
+
+.link-text h3 {
+    color: rgb(255, 255, 255);
+    font-family: "Li Ador Noirrit";
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 1vw;
+    line-height: normal;
+}
+
+.link-text > p {
+    color: rgb(255, 255, 255);
+    font-family: "Li Ador Noirrit";
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-text > h3::before {
+    content: "";
+    width: 3vw;
+    height: 0.1vw;
+    position: absolute;
+    top: 2.5vw;
+    background: rgb(240, 230, 21);
+}
+
+.footer-logo-img {
+    text-align: center;
+    width: 14vw;
+}
+
+.footer-logo-img img {
+    width: 5vw;
+}
+
+.contact-us > h3 {
+    color: rgb(240, 230, 21);
+    text-align: center;
+    font-family: "Li Ador Noirrit";
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.5vw;
+}
+
+.contact-us > h2 {
+    color: rgb(248, 248, 248);
+    font-family: Manrope;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.social-icon {
+    background-image: url("/images/socail-background.png");
+    width: 100%;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.front-color {
+    width: 100%;
+    height: 14vw;
+    background: linear-gradient(0deg, rgb(0, 59, 96) 0%, rgba(0, 59, 96, 0) 100%);
+    position: relative;
+}
+
+.all-icon {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    width: 25vw;
+    z-index: 1;
+}
+
+.all-icon > a > img {
+    width: 3vw;
+    padding: 1vw;
+}
+
+.all-icon > p {
+    font-size: 1.5vw;
+    margin-bottom: -3vw;
+    margin-top: 2vw;
+}
+
+.footer-banner {
+    position: relative;
+}
+
+.inportent-link {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 2vw 0vw;
+    background: rgb(0, 59, 96);
+    position: absolute;
+    bottom: -3vw;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    border-radius: 4vw 0vw;
+}
