@@ -1,0 +1,9 @@
+@media (max:400px) {
+    .input-box {
+        display: block;
+        /* width: 72vw;
+        margin: 0px auto;
+        justify-content: center;
+        padding-top: 3vw; */
+    }
+}
